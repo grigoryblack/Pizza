@@ -1,0 +1,52 @@
+body {
+    background: url('./pic/background.jpg') 0 0/cover no-repeat;
+    margin: 0;
+}
+
+.main_contaner{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_urfu{
+    height: 400px;
+    width: 800px;
+    background: url('./pic/Urfupizzalogo.png') 0 0/cover no-repeat;;
+    margin-right:0;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.decoratinon_line{
+    width: 589px;
+    height: 1px;
+    margin-right:58px;
+    margin-left: auto;
+    background-color: #fff;
+    margin-top: 70px;
+
+}
+
+.main_page_button{
+    color: #fff;
+    text-decoration: none;
+    height: 45px;
+    width: 250px;
+    margin-right:180px;
+    margin-left: auto;
+    margin-top: 80px;
+    border: 3px solid #F68344;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main_page_button:hover{
+    background-color: rgba(255, 255, 255, 0.22);
+}

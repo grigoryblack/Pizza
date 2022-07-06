@@ -1,0 +1,61 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.main_logo{
+    width:123px;
+    height: 123px;
+    background: url("./Logo.png") no-repeat;
+}
+
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:450px;
+    padding-right: 20px;
+}
+
+.main_nav_item{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    position: relative;
+}
+.main_nav_item::before{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color: #fff;
+    left: 0;
+    bottom: -3px;
+    transition: 0.4s;
+}
+.main_nav_item:hover:before{
+    width: 103%;
+}
+
+.call_number{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-right: 400px;
+}
+
+.call_number:hover{
+    color: #F68344;
+    cursor: pointer;
+}
