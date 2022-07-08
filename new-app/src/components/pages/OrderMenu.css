@@ -1,0 +1,469 @@
+.order_menu_contaner{
+    max-width: 1300px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.left_contaner_order_menu{
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+.right_contaner_order_menu{
+    margin-right: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+
+.title_order_menu{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #F68344;
+    padding-bottom: 25px;
+}
+
+.contaner_content_order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+.contaner_content_order_adres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    align-items: flex-start;
+}
+
+.subtitle_order{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-right: 150px;
+}
+
+.order_input{
+    width: 300px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #F68344;
+    color: #767676;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+}
+
+.checkbox_order{
+
+}
+
+.order_input_adres{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #F68344;
+    color: #767676;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+    align-items: flex-start;
+    margin: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+}
+
+.adres_area{
+    width: 310px;
+    height: 100px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #F68344;
+    padding-left: 20px;
+    padding-top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+
+}
+
+.order_input_time{
+    width: 150px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #F68344;
+    color: #767676;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+}
+
+.icon_time{
+    margin: 0;
+    color: #F68344;
+    margin-left: -190px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.order_input_promo{
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #F68344;
+    color: #767676;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 20px;
+    outline: none;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+}
+
+.button_promo{
+    height: 39px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #F68344;
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    padding: 12px;
+
+    color: #fff;
+}
+
+.button_promo:hover{
+    background-color: #FF5E06;
+}
+
+
+.pay_contaner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FBFBFB;
+    width: 350px;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-left: 16px;
+    padding-right: 100px;
+}
+
+.pay_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.button_position_order{
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.back_to_menu_button{
+    height: 40px;
+    width: 150px;
+    background-color: #F4F4F4;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+
+    color: #767676;
+    align-items: center;
+}
+
+.back_to_menu_button:hover{
+    border: 1px solid #C1C1C1;
+}
+
+
+.accept_order_button{
+    height: 40px;
+    width: 170px;
+    background-color: #F68344;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+
+    color: #fff;
+
+    align-items: center;
+}
+
+.accept_order_button:hover{
+    background-color: #FF5E06;
+}
+
+.order_case{
+    width: 400px;
+    height: 315px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    border-radius: 10px;
+}
+
+.title_pizza_order{
+    padding-left: 18px;
+    padding-top: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.pizza{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #C9C9C9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+}
+
+.title_name_pizza{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+    margin-bottom: 3px;
+
+}
+
+.subtitle_name_pizza{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+    margin-bottom: 10px;
+}
+
+.price_pizza{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.counter_pizza{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 360px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+
+    border-bottom: 1px solid #C9C9C9;
+
+}
+
+.counter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.price_counter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    margin-bottom: 15px;
+}
+
+.final_price{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 360px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.title_final_price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+}
+
+.price_pizza_final{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.sub_sub_title_pizza{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 160px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+
+}

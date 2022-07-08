@@ -1,0 +1,156 @@
+.menu_contaner{
+    max-width: 1300px;
+    background: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.title_menu{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    color: #F68344;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.pizza_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pizza_contaner{
+    height: 380px;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 3px 10px 30px rgba(129, 135, 189, 0.26);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic1{
+    background: url("./pic/cheese.png") 0 0/cover no-repeat;
+    height: 210px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pic2{
+    background: url("./pic/4seasons.png") 0 0/cover no-repeat;
+    height: 210px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pic3{
+    background: url("./pic/pepperony.png") 0 0/cover no-repeat;
+    height: 210px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pic4{
+    background: url("./pic/hamandmashr.png") 0 0/cover no-repeat;
+    height: 210px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.price_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.pizza_header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.pizza_subheader{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    width: 260px;
+    height: 52px;
+
+    color: #767676;
+
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.price_menu{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #000000;
+
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.button_menu{
+    width: 98px;
+    height: 35px;
+    left: 545px;
+    top: 1024px;
+
+    background: rgba(246, 131, 68, 0.24);
+    border-radius: 50px;
+    margin: 0;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #F68344;
+
+    cursor: pointer;
+}
+
+.button_menu:hover{
+    border: 2px solid #F68344;
+}
