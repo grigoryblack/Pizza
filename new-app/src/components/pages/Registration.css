@@ -1,0 +1,156 @@
+body {
+    background: url('./pic/background.jpg') 0 0/cover no-repeat;
+    margin: 0;
+}
+
+.reg_header_container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.reg_logo {
+    width: 123px;
+    height: 123px;
+    background: url("./pic/Logo.png") no-repeat;
+}
+
+.reg_contaner {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_urfu_login {
+    height: 230px;
+    width: 410px;
+    background: url('./pic/Urfupizzalogo.png') 0 0/cover no-repeat;;
+    margin-right: 60px;
+    margin-left: auto;
+}
+
+.reg_forms_container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_username {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.reg_username_input {
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #FA7A45;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.reg_user_email {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.reg_user_email_input {
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #FA7A45;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.reg_password {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.reg_password_input {
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #FA7A45;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.reg_page_button {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 60px;
+    border: 3px solid #F68344;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reg_contaner .reg_page_button {
+    align-self: center;
+}
+
+.reg_word {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg_page_button:hover{
+    background-color: rgba(255, 255, 255, 0.22);
+}
