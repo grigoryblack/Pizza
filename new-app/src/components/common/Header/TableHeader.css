@@ -1,0 +1,124 @@
+.main_nav_table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:200px;
+    padding-right: 20px;
+}
+
+.order_style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+
+.order_contaner_table{
+    position: absolute;
+    top: 150%;
+    background-color: #fff;
+    border: 1px solid #FFE2D7;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    width: 220px;
+    cursor: default;
+}
+
+.title_order_table{
+    margin-left: 15px;
+    margin-top: 12px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000;
+}
+
+.subtitle_order_table{
+    margin-left: 15px;
+    margin-top: 5px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000;
+
+    width: 190px;
+    border-bottom: 1px solid #C1C1C1;
+    padding-bottom: 5px;
+}
+
+.name_table_titlle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FF5E06;
+    width: 140px;
+}
+
+.exit_button_table{
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+
+    margin-top: 10px;
+    margin-bottom:10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    color: red;
+    cursor: pointer;
+}
+
+.exit_button_table::before{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color: red;
+    left: 0;
+    bottom: 1px;
+    transition: 0.4s;
+}
+
+.exit_button_table:hover:before{
+    width: 103%;
+}
+
+
+.exit_button_table a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
