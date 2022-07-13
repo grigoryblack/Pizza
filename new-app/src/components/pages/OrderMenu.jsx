@@ -65,7 +65,7 @@ function OrderMenu() {
                     </div>
                     <div className="button_position_order">
                         <Link to = "/Menu" className = "back_to_menu_button" > <ArrowBackIosNewIcon/> Назад в меню </Link>
-                        <Link to = "/Order" className = "accept_order_button" > Оформить заказ <ArrowForwardIosIcon/></Link>
+                        <Link to = "/Check" className = "accept_order_button" > Оформить заказ <ArrowForwardIosIcon/></Link>
                     </div>
 
                 </div>

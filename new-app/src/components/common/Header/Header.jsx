@@ -1,9 +1,15 @@
-import React from "react";
+import {React, useState} from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Header() {
+
+    const [isActive,setIsActive] = useState (false)
+    const [count,setCount] = useState(0)
+
+
     return(
         <>
             <div className="header">
@@ -13,7 +19,33 @@ function Header() {
                     <Link className = "main_nav_item" to ="/" > Главная </Link>
                     <Link className = "main_nav_item" to ="/About_Us" > О нас </Link>
                     <Link className = "main_nav_item" to ="/Menu" > Меню </Link>
-                    <Link className = "main_nav_item" to ="/Order" > <ShoppingCartIcon/> </Link>
+                    <div className="dropdown_order_contaner">
+                    <div className="dropdown_order" onClick={(e) => setIsActive(!isActive)}> <ShoppingCartIcon/>
+
+                        {isActive && (
+                            <div className="order_contaner_dropdown">
+                                <div className="title_order_dropdown">Товар не выбран</div>
+                                <div className="pizza_dropdown_order">
+                                    <div className="pizza_dropdown"> Корзина пуста</div>
+                                </div>
+                                <div className="counter_dropdown_pizza">
+                                    <div className="price_dropdown_counter"> 0 ₽</div>
+                                    <div className="counter_dropdown">
+                                        <button className="counter_button" onClick={()=>setCount(count-1)}>-</button>
+                                        <div className="counter">{count}</div>
+                                        <button className="counter_button"onClick={()=>setCount(count+1)}>+</button>
+                                    </div>
+                                </div>
+                                <div className="final_price_dropdown_order">
+                                    <div className="title_final_price_dropdown">Сумма заказа</div>
+                                    <div className="final_price_dropdown"> 0 ₽</div>
+                                </div>
+                                <Link className = "goto_order" to ="/Order" > К оформлению заказа <ArrowForwardIosIcon sx={{ fontSize: 20 }}/> </Link>
+                            </div>
+
+                        )}
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

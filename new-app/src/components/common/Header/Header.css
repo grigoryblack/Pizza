@@ -59,3 +59,191 @@
     color: #F68344;
     cursor: pointer;
 }
+
+.dropdown_order_contaner{
+    position: relative;
+    display: flex;
+}
+
+.dropdown_order_contaner .dropdown_order{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.dropdown_order_contaner .order_contaner_dropdown{
+    position: absolute;
+    top: 150%;
+    background-color: #fff;
+    border: 1px solid #FFE2D7;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    width: 300px;
+    cursor: default;
+}
+
+.title_order_dropdown{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.pizza_dropdown_order{
+    width: 250px;
+    border-bottom: 1px solid #E4E4E4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pizza_dropdown{
+    margin-top: 29px;
+    margin-bottom: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #767676;
+
+}
+
+.counter_dropdown_pizza{
+    width: 300px;
+    border-bottom: 2px solid #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_dropdown_counter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-left: 24px;
+    margin-top: 12px;
+    margin-bottom: 90px;
+}
+
+
+.final_price_dropdown_order{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.title_final_price_dropdown{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+    margin-left: 24px;
+
+}
+
+.final_price_dropdown{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    margin-right: 24px;
+}
+
+.goto_order{
+    text-decoration: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height */
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    align-items: center;
+    padding: 7px;
+    padding-left: 16px;
+    padding-right: 5px;
+    border-radius: 50px;
+
+
+    color: #FFFFFF;
+
+    width: 160px;
+    background-color: #F68344;
+
+}
+
+.counter_dropdown{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.counter_button{
+    background-color: transparent;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height */
+
+    cursor: pointer;
+    color: #595A5F;
+}
+
+.counter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height */
+
+    cursor: pointer;
+    color: #595A5F;
+
+}
