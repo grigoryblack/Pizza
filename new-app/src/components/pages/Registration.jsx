@@ -2,6 +2,7 @@ import React from "react";
 import './Registration.css'
 import { useState } from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 
 function Registration() {
@@ -10,6 +11,7 @@ function Registration() {
     const [email, setEmail] = useState("");
 
     const [regStatus, setRegStatus] = useState("");
+    const [back, setBack] = useState("");
 
     const addUser = () => {
         Axios.post("http://localhost:3001/register", {
@@ -19,6 +21,7 @@ function Registration() {
         }).then((response) => {
             if (response.data.message) {
                 setRegStatus(response.data.message);
+                setBack("Вернуться назад");
             }
         });
     };
@@ -57,6 +60,7 @@ function Registration() {
                             }}>
                         </input>
                         <div className="message">{ regStatus }</div>
+                        <Link to="/Login" className="back">{back}</Link>
                         <div className="reg_page_button" onClick={ addUser }>
                             <div className="reg_word">Регистрация</div>
                         </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import  MainPage  from "./components/pages/MainPage";
+import MainPage  from "./components/pages/MainPage";
 import AboutUs from "./components/pages/AboutUs";
 import OrderMenu from "./components/pages/OrderMenu";
 import MenuPage from "./components/pages/MenuPage";
@@ -8,6 +8,9 @@ import Registration from "./components/pages/Registration";
 import CheckPage from "./components/pages/CheckPage";
 import TablePage from "./components/pages/TablePage";
 import { Route, Routes } from 'react-router-dom';
+import Axios from "axios";
+
+Axios.defaults.withCredentials = true;
 
 
 function App() {

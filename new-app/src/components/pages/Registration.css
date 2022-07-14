@@ -127,7 +127,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -136,7 +136,7 @@ body {
 .reg_page_button {
     color: #fff;
     text-decoration: none;
-    margin-top: 60px;
+    margin-top: 40px;
     border: 3px solid #F68344;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -164,4 +164,15 @@ body {
 
 .reg_page_button:hover{
     background-color: rgba(255, 255, 255, 0.22);
+}
+
+.back {
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
